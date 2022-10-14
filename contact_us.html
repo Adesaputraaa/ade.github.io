@@ -9,9 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/css/style.css">
-    <title>Home</title>
+    <title>Contact Us</title>
 </head>
-<body id="home">
+<body>
     <div class="navbar">
         <nav>
             <ul class="menu">
@@ -49,77 +49,68 @@
         </nav>
     </div>
 
-    <div class="jumbotron">
-        <div class="cc">
+    <div class="form">
+        <h1>Contact Us</h1>
+        <form action="POST">
             <div>
-                <h3>CREATIVE CLOUD</h3>
-                <h1>Perjalanan kreatif dimulai dari sini.</h1>
-                <p>Dapatkan inspirasi yang terus mengalir dengan video, desain, foto, dan aplikasi UI/UX kami.</p>
-                <span class="but"><a href="#">Mulai uji coba gratis</a></span>
-                <a href="#">Pelajari lebih lanjut</a>
+                <label for="nama">Nama Lengkap</label>
+                <br>
+                <input type="text" name="nama" id="nama">
             </div>
-        </div>
-
-        <div class="cclogo">
-            <img src="/assets/cc.png" alt="cc logo" width="570px">
-        </div>
+            <div>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="username">Username</label>
+                <br>
+                <input type="text" name="username" id="username">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <br>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="alamat">Alamat</label>
+                <br>
+                <input type="textarea" name="alamat" id="alamat">
+            </div>
+            <div>
+                <label for="agama">Agama</label>
+                <br>
+                <select name="agama" id="agama">
+                    <option value="kristen">Kristen</option>
+                    <option value="islam">Islam</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="konghucu">Konghucu</option>
+                    <option value="khatolik">Khatolik</option>
+                </select>
+            </div>
+            <div class="opt">
+                <label>Jenis Kelamin</label>
+                <br>
+                <input type="radio" name="jk" id="laki-laki" value="laki-laki">
+                <label for="laki-laki">Laki-laki</label>
+                <input type="radio" name="jk" id="perempuan" value="perempuan">
+                <label for="perempuan">Perempuan</label>
+            </div>
+            <div class="opt">
+                <label>Hobi</label>
+                <br>
+                <input type="checkbox" name="volly" id="volly">
+                <label for="volly">Volly</label>
+                <input type="checkbox" name="basket" id="basket">
+                <label for="basket">Basket</label>
+                <input type="checkbox" name="balap" id="balap">
+                <label for="balap">Balap</label>
+            </div>
+            <button type="submit" value="save">Save</button>
+        </form>
     </div>
 
-    <div class="cclink">
-        <p><b>Creative Cloud untuk:</b></p>
-        <div>
-            <a href="#">Semua orang</a>
-            <a href="#">Pelajar</a>
-            <a href="#">Fotograper</a>
-            <a href="#">Bisnis</a>
-            <a href="#">Adobe Stock</a>
-            <a href="#">Penawaran Special</a>
-        </div>
-    </div>
-
-    <div class="card">
-        <div class="card-1">
-            <a href="#">
-                <div class="imag">
-                    <img src="/assets/pic1.jpg" alt="pic1">
-                </div>
-                <br>
-                <div class="txt">
-                    <h2>Memperkenalkan Photoshop<br>yang baru.</h2>
-                    <h3>Lebih cepat, lebih pintar, dan lebih mudah dari<br>sebelumnya.</h3>
-                    <p>Pelajari lebih lanjut</p>
-                </div>
-            </a>
-        </div>
-        <div class="card-2">
-            <a href="#">
-                <div class="imag">
-                    <img src="/assets/pic2.jpg" alt="pic2">
-                </div>
-                <br>
-                <div class="txt">
-                    <h3>THE CREATIVITY CONFERENCE</h3>
-                    <h2>Adobe MAX. Daftar sekarang.</h2>
-                    <h3>Bergabunglah dengan Kevin Hart, Siân Heder,<br>Jeff Koons, Steve Aoki, dan banyak lainnya di<br>acara kreatif tahun ini. 20 Oktober.</h3>
-                    <p>Dapatkan tempat Anda sekarang</p>
-                </div>
-            </a>
-        </div>
-        <div class="card-3">
-            <a href="#">
-                <div class="imag">
-                    <img src="/assets/pic3.jpg" alt="pic3">
-                </div>
-                <br>
-                <div class="txt">
-                    <h2>Lakukan dengan Acrobat.</h2>
-                    <h3>Edit, bagikan, dan tanda tangani secara<br>elektronik PDF Anda – semua di satu tempat.</h3>
-                    <p>Mulai uji coba gratis</p>
-                </div>
-            </a>
-        </div>
-    </div>
-    
     <div class="footer">
         <footer>
             <ul>
@@ -232,5 +223,6 @@
             </div>
         </div>
     </div>
+    
 </body>
 </html>

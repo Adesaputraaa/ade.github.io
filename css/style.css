@@ -1,0 +1,450 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Assistant', sans-serif;
+}
+
+#home{
+    background: url(/assets/bg.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#bio{
+    background: #fff;
+}
+
+.navbar nav{
+    display: flex;
+    background: #fff;
+    box-shadow: 0 2px 10px #f1f1f1;
+}
+.navbar ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 23px 20px;
+    transition: 300ms ease;
+    font-weight: 550;
+}
+
+.navbar a:hover:not(.navbar .sign-in a:hover, .navbar .merek a:hover){
+    background: #f1f1f1;
+    transition: 300ms ease;
+}
+
+.merek img{
+    margin-right: 10px;
+    float: left;
+}
+
+.sign-in i{
+    font-size: 18px;
+}
+
+.sign-in a:hover{
+    color: #1170ff;
+}
+
+.merek a{
+    font-size: 18px;
+    font-weight: 600;
+    color: #f00;
+    padding: 20.5px 20px;
+    margin: 0;
+}
+
+.menu{
+    margin-right: auto !important;
+}
+
+.jumbotron{
+    display: flex;
+    justify-content: center;
+    margin: 100px 150px;
+}
+
+.cc{
+    width: 52%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cc h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.cc p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cc a{
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+
+.cc a:hover{
+    text-decoration: underline;
+}
+
+.but a{
+    color: #fff;
+    background: #1170ff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-right: 15px;
+    transition: 300ms ease;
+}
+
+.but a:hover{
+    background: #005ce6;
+    transition: 300ms ease;
+    text-decoration: none;
+}
+
+.cclogo{
+    width: 48%;
+}
+
+.cclink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cclink p{
+    margin-right: 10px;
+}
+
+.cclink a{
+    text-decoration: none;
+    color: #1170ff;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.cclink a:hover{
+    text-decoration: underline;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    margin: 12px 10px;
+    margin-bottom: 300px;
+}
+
+.card > div{
+    margin: 40px 25px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #000;
+}
+
+.card h2, .card h3, .card p{
+    margin: 10px 0;
+}
+
+.card h3{
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.card p{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card p:hover{
+    text-decoration: underline;
+}
+
+.card a .txt{
+    position: relative;
+    margin: 0 20px;
+}
+
+.card a .imag{
+    position: absolute;
+}
+
+.card-3 a{
+    color: #fff;
+}
+
+.footer{
+    background: #f8f8f8;
+}
+
+.footer ul{
+    margin: 40px 80px 40px 0;
+}
+
+.footer li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer b{
+    color: #555555;
+    font-size: 14px;
+}
+
+.footer a{
+    text-decoration: none;
+    list-style: none;
+    color: #555555;
+    font-size: 12px;
+    padding: 10px 0;
+    transition: 300ms ease;
+}
+
+.footer a:hover{
+    color: #9e9e9e;
+    transition: 300ms ease;
+}
+
+footer{
+    display: flex;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #9e9e9e;
+    border-bottom: 1px solid #9e9e9e;
+    margin: 0 20px;
+}
+
+.line > div{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.line a{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.line p{
+    padding: 0;
+    margin: 0;
+    margin-right: 30px;
+
+}
+
+.line img{
+    margin-right: 5px;
+}
+
+.ads{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 30px 0;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.social i{
+    font-size: 24px;
+}
+
+.cpyr{
+    display: flex;
+    align-items: center;
+}
+
+.cpyr p{
+    font-size: 11px;
+    color: #8b8b8b;
+    letter-spacing: -0.5px;
+}
+
+.cpyr a{
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    letter-spacing: -0.5px;
+}
+
+.cpyr span{
+    font-size: 11px;
+    margin: 0 10px;
+}
+
+.adjs{
+    margin: auto;
+}
+
+
+/* contact_uc.html styling */
+
+.form{
+    background: #f1f1f1;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    padding: 30px;
+    padding-bottom: 100px;
+}
+
+.form form{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+
+.form form > div{
+    margin: 10px 20px;
+}
+
+.form form input:not(.form form .opt input), .form form select{
+    width: 380px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #8ebbff;
+    padding: 0 10px;
+}
+
+.form form select{
+    width: 400px;
+}
+
+.form form input:focus, .form form select:focus{
+    outline: 1px solid #1170ff;
+}
+
+.form form button{
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    background: #1170ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 300ms ease;
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+}
+
+.form form button:hover{
+    background: #005ce6;
+    transition: 300ms ease;
+}
+
+/* biodata.html styling */
+
+.mybio{
+    display: flex;
+    padding: 40px 0;
+    background: #f1f1f1;
+}
+
+.profile{
+    margin: 100px 50px 0 200px;
+}
+
+.profile h1{
+    font-size: 58px;
+    margin: 0;
+}
+
+.profile > p{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.soc p{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.soc a{
+    font-size: 28px;
+    color: #000;
+}
+
+.soc .bxl-instagram:hover{
+    background: linear-gradient(45deg, orange, red, purple);
+    border-radius: 5px;
+    color: white;
+    transition: 300ms ease;
+}
+
+.soc .bxl-facebook:hover{
+    background: #005ce6;
+    border-radius: 5px;
+    color: white;
+    transition: 300ms ease;
+}
+
+.soc .bxl-linkedin:hover{
+    background: #237bff;
+    border-radius: 5px;
+    color: white;
+    transition: 300ms ease;
+}
+
+.mypic{
+    display: flex;
+    justify-content: center;
+}
+
+.mypic img{
+    border-radius: 50%;
+}
+
+.pharsa{
+    display: flex;
+    margin: 50px;
+}
+
+.pimg h2, .pimg h5{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.story{
+    margin-left: 50px ;
+}
+
+.story p{
+    text-align: justify;
+    margin: 0;
+    font-size: 18px;
+}
